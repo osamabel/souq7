@@ -1,14 +1,10 @@
 "use client";
 import Hero from "../components/Hero";
-import About from "../components/About";
-import Services from "../components/Services";
 import ScrollProgress from "../components/ScrollProgress";
 import { useEffect, useState } from "react";
-import Contact from "../components/Contact";
 import ContactSideIno from "../components/SideBarInfo/ContactSideIno";
 import Footer from "../components/Footer";
 import { useGlobalContext } from "../context/GlobalContext";
-import Technologies from "../components/technologies";
 import Categories from "../components/Categories";
 import Map from "../components/Map";
 

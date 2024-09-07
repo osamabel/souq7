@@ -1,14 +1,9 @@
 "use client"
 import React from 'react'
 import HeroSub from '../../components/HeroSub'
-import TechSection from '../../components/TechSection';
 import Footer from '../../components/Footer';
 import { useGlobalContext } from '../../context/GlobalContext';
 import { useTranslations } from '@/utils/translations';
-import SolutionSection from '@/app/components/SolutionSection';
-import ScrollBySteps from '@/app/components/ScrollBySteps';
-import { useInView } from '@/app/Hooks/useInView';
-
 function page() {
   const { isMenuOpen } = useGlobalContext();
   const t = useTranslations();
