@@ -1,0 +1,117 @@
+{
+  "link" :{
+    "contact" : "Contact Us",
+    "technologies" : "Technologies",
+    "services": "Services",
+    "about": "About Us",
+    "solutions": "Solutions",
+    "privacy": "Privacy Policy",
+    "map": "Location",
+    "important": "Location importance"
+  },
+  "categories": {
+    "title": "Discover Areas",
+    "cats": [
+      {
+        "title": "Fashion",
+        "image": "fashion"
+      },
+      {
+        "title": "Gold and Accessories",
+        "image": "gold"
+      },
+      {
+        "title": "Perfumes and Cosmetics",
+        "image": "parfume"
+      },
+      {
+        "title": "Furniture and Furnishings",
+        "image": "furniture"
+      },
+      {
+        "title": "Antiques and Housewares",
+        "image": "antiques"
+      },
+      {
+        "title": "Home Appliances and Electronics",
+        "image": "electronic"
+      },
+      {
+        "title": "Groceries and Supermarket",
+        "image": "supermarcket"
+      },
+      {
+        "title": "Restaurants and Cafes",
+        "image": "restaurant"
+      }
+    ]
+  },
+  "importance": [
+    {
+      "title": "The Easiest Open Shopping and Entertainment Complex",
+      "Content": [
+        "In the Kingdom of Saudi Arabia, with the development of entertainment and shopping in the region, Saudis have become more informed and demanding. This highlights the importance of combining shopping outlets with entertainment facilities in a creative and comfortable setting, which will become a major attraction for visitors."
+      ]
+    },
+    {
+      "title": "Population Density",
+      "Content": [
+        "Souk Rayan is strategically located in the Al-Rayan neighborhood on the Haramain road, considered the most important crossing area for pilgrims due to its proximity to the airport. Within a 10-minute drive, it is easily accessible, and in addition to a loyal customer base from the Makkah region, it also attracts tourists."
+      ]
+    },
+    {
+      "title": "Accessibility",
+      "Content": [
+        "Souk Rayan is accessible from all parts of the Makkah region through highways and main roads."
+      ]
+    },
+    {
+      "title": "Infrastructure",
+      "Content": [
+        "Souk Rayan will have a high-level infrastructure that will support the complex to ensure the smooth operation of all its processes. This will allow tenants to meet the needs of visitors in the best possible way."
+      ]
+    },
+    {
+      "title": "Area Design",
+      "Content": [
+        "Each area in Souk Rayan will have a unique and unified design, offering visitors different models to enjoy shopping and entertainment in a distinctive and comfortable way."
+      ]
+    },
+    {
+      "title": "Year-Round Promotional Events",
+      "Content": [
+        "Souk Rayan will be promoted by hosting events and marketing campaigns throughout the year, ensuring a continuous flow of visitors. The central area of the shopping and entertainment zone will host many events for the whole family."
+      ]
+    },
+    {
+      "title": "Project Location",
+      "Content": [
+        "Souk Rayan occupies a strategic location in the densely populated Al-Rayan neighborhood in the east of Jeddah, benefiting from direct access to Haramain Road, one of the main traffic arteries of the city. Additionally, Souk Rayan is close to King Abdulaziz International Airport, making it an attractive center for pilgrims and transit passengers at King Abdulaziz University Airport."
+      ]
+    },
+    {
+      "title": "Partnership with Souk Rayan",
+      "Content": [
+        "This unique project represents a rare and important opportunity for developers and retailers to be part of this one-of-a-kind project in the Kingdom of Saudi Arabia."
+      ]
+    },
+    {
+      "title": "Land Development",
+      "Content": [
+        "The developer will lease the land and develop it according to the design of Souk Rayan. This approach will harmonize and unify the appearance of the project, while giving the developer the freedom to design the shops within the building to meet their specific needs."
+      ]
+    },
+    {
+      "title": "Build-to-Suit",
+      "Content": [
+        "Souk Rayan offers opportunities to develop large buildings and halls on behalf of retailers for brands that require large spaces, in accordance with the design of Souk Rayan."
+      ]
+    },
+    {
+      "title": "Retail Leasing",
+      "Content": [
+        "Yas Real Estate will develop small shops for retailers to lease."
+      ]
+    }
+  ]
+}

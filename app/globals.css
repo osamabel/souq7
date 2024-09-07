@@ -1,0 +1,293 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('./styles/GraphikArabic.css');
+@import url('./styles/scheduling-button-script.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --animation-delay: 0s;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+img {
+  user-select: none; /* Prevent text selection */
+  pointer-events: none; /* Disable pointer events */
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+
+  background: #fff;
+  color: black
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.circle{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: black;
+  border: 4px solid white;
+}
+
+.path{
+  width: 3px;
+  animation: expandHeight 1.5s;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 87%, rgba(255,255,255,0) 100%);
+}
+
+@keyframes expandHeight {
+  from {
+    height: 3px;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.card{
+  border: 1px solid rgba(88,101,242,0.2);
+  background: rgb(88,101,242);
+  background: linear-gradient(340deg, rgba(88,101,242,0.1601234243697479) 0%, rgba(88,101,242,0) 30%, rgba(88,101,242,0) 65%, rgba(88,101,242,0.1153054971988795) 90%);
+  border-radius: 18px; /* this doesn't work */
+  position: relative; /* Position it absolutely within the main div */
+  /* overflow: hidden;  */
+}
+
+.ShadowCard{
+  position: absolute; /* Position it absolutely within the main div */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width of the parent div */
+  height: 100%; /* Full height of the parent div */
+  background: rgb(0, 0, 0); /* Semi-transparent background color */
+  z-index: 0; /* Place the pseudo-element behind the content */
+  border-radius: 18px; /* this doesn't work */
+  box-shadow: 37px 0px 123px 95px rgba(0, 0, 0, 0.696);
+-webkit-box-shadow: 37px 0px 123px 95px rgba(0, 0, 0, 0.696);
+-moz-box-shadow: 37px 0px 123px 95px rgba(0, 0, 0, 0.696);
+}
+
+.flip-container {
+  perspective: 1000px; /* Define the 3D perspective */
+}
+
+.slideUp {
+  transform-style: preserve-3d;
+  /* transition: transform all 0.6s; */
+  opacity: 0;
+  transform: translateY(100px);
+  animation: slideUp .8s ease-in-out forwards;
+  animation-delay: .3s;
+}
+@keyframes slideUp {
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.slidedownTitle {
+  /* transition: transform all 0.6s; */
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: slideup .5s ease-in-out forwards;
+  animation-delay: .8s;
+}
+@keyframes slideup {
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.slideUpTitle {
+  /* transition: transform all 0.6s; */
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideup .6s ease-in-out forwards;
+  /* animation-delay: .6s; */
+  overflow: hidden;
+}
+@keyframes slideup {
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+
+
+.slideleftPlus{
+  opacity: 0;
+  transition: transform 1s all;
+  transform: translateX(100px);
+  animation: sladingLp 1s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+@keyframes sladingLp {
+  to {
+    opacity: 1;
+    transform: translateX(-20px);
+  }
+}
+
+.slideleft{
+  opacity: 0;
+  transition: transform 1s all;
+  transform: translateX(100px);
+  animation: sladingL 1s ease-in-out forwards;
+  /* animation-delay: .9s; */
+}
+
+@keyframes sladingL {
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.slideright{
+  opacity: 0;
+  transition: transform 1s all;
+  transform: translateX(-100px);
+  animation: sladingR 1s ease-in-out forwards;
+}
+
+@keyframes sladingR {
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.sliderightPlus{
+  opacity: 0;
+  transition: transform 1s all;
+  transform: translateX(-100px);
+  animation: sladingRp 1s ease-in-out forwards;
+}
+
+@keyframes sladingRp {
+  to {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+}
+
+.expand {
+  transition: transform 0.8s all;
+  overflow: hidden; /* Ensure content doesn't show until expanded */
+  height: 0px;
+  animation: expanding 0.8s ease-in-out forwards;
+  animation-delay: .6s;
+}
+
+@keyframes expanding {
+  to {
+    height: 100%;
+  }
+}
+
+.expandFooter {
+  transition: transform 0.8s all;
+  height: 0px;
+  overflow: hidden; /* Ensure content doesn't show until expanded */
+  animation: expandingFooter 0.8s ease-in-out forwards;
+  animation-delay: .9s;
+}
+
+@keyframes expandingFooter {
+  to {
+    /* height: 250px; */
+    height: 30%;
+  }
+}
+
+.fade {
+  opacity: 0;
+  overflow: hidden;
+  animation: fading 0.9s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fading {
+  to {
+    opacity: 1;
+  }
+}
+
+
+.delay-1 {
+  animation-delay: 0s !important;
+}
+
+.delay-2 {
+  animation-delay: 0.15s !important;
+}
+
+.delay-3 {
+  animation-delay: .1s !important;
+}
+
+
+#svg {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+path {
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+  animation: draw 2s forwards ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes draw {
+  to {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 0;
+  }
+}
+
+.t-200 {transition: all 0.2s;}
+.t-400 {transition: all 0.4s;}
+
+
+.animate-fadeInFromRight{
+  animation: fadeInFromRight 2s forwards ease-in-out;
+  overflow: hidden;
+  clip-path: inset(0 0 0 100%);
+  opacity: 0;
+  animation-delay: 1s;
+}
+@keyframes fadeInFromRight {
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.flip{
+  transform: rotateY(180deg) 
+}
