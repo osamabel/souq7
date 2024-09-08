@@ -12,7 +12,7 @@ function Footer() {
 
       <div className="py-[20px] w-full flex sm:flex-col  justify-between items-start sm:items-center gap-[20px]">
         <div className="flex flex-col sm:flex-row gap-[10px] md:gap-[20px] text-[14px] md:text-[14px]">
-          <CustomLink section={"footer"} href="/#contact-section">
+          {/* <CustomLink section={"footer"} href="/#contact-section">
             {t.link.contact}
           </CustomLink>
           <CustomLink section={"footer"} href="/">
@@ -26,10 +26,10 @@ function Footer() {
           </CustomLink>
           <CustomLink section={"footer"} href="/">
             {t.link.solutions}
-          </CustomLink>
-          <CustomLink section={"footer"} href="/important">
+          </CustomLink> */}
+          {/* <CustomLink section={"footer"} href="/important">
             {t.link.important}
-          </CustomLink>
+          </CustomLink> */}
         </div>
         <div className="flex gap-[20px] flex-col sm:flex-row">
           <a href="https://www.linkedin.com/company/blockpadin">

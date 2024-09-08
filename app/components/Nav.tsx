@@ -18,7 +18,7 @@ function Nav() {
           </CustomLink>
         </div>
         <div className="w-[719px] xl:w-[900px] 2xl:w-[1121px] flex items-center justify-center gap-x-[40px] text-[16px] font-medium">
-          <CustomLink section={"nav"} href="/#about-section">
+          {/* <CustomLink section={"nav"} href="/#about-section">
             {t.link.about}
           </CustomLink>
           <CustomLink section={"nav"} href="/#services-section">
@@ -26,9 +26,12 @@ function Nav() {
           </CustomLink>
           <CustomLink section={"nav"} href="/#technologies-section">
             {t.link.technologies}
+          </CustomLink> */}
+          <CustomLink section={"nav"} href="/#category-section">
+            {t.link.cat}
           </CustomLink>
-          <CustomLink section={"nav"} href="/#contact-section">
-            {t.link.contact}
+          <CustomLink section={"nav"} href="/important">
+            {t.link.important}
           </CustomLink>
         </div>
         <div className="font-medium text-[14px] w-[176px] flex justify-end">

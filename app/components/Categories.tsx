@@ -41,7 +41,7 @@ function Categories() {
                     >
                         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/50 backdrop-blur-lg group-hover:backdrop-blur-none t-400"></div>
 
-                        <div className="absolute text-[30px] bg-transparent w-full h-full p-[20px] sm:text-[60px] group-hover:sm:text-[30px] text-white t-400">
+                        <div className="absolute text-[30px] bg-transparent w-full h-full p-[20px] sm:text-[50px] group-hover:sm:text-[30px] text-white t-400">
                             {item.title}
                         </div>
 
@@ -61,7 +61,7 @@ function Categories() {
                     >
                         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 backdrop-blur-lg group-hover:backdrop-blur-none t-400"></div>
 
-                        <div className="absolute text-[30px] bg-transparent w-full h-full p-[20px] sm:text-[60px] group-hover:sm:text-[30px] text-white t-400">
+                        <div className="absolute text-[30px] bg-transparent w-full h-full p-[20px] sm:text-[50px] group-hover:sm:text-[30px] text-white t-400">
                             {item.title}
                         </div>
 
